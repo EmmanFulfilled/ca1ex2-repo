@@ -1,0 +1,27 @@
+git config --global user.name "Emmanuel Fulfilled"
+git config --global user.email "X00227373@mytudublin.ie"
+git config --global core.autoclf false
+git init
+echo git status
+git status
+git branch -m master main
+git add .
+git commit -m "first commit"
+git add server.py
+git checkout msin
+git checkout main
+git branch feature-auth
+git status
+git checkout feature-auth
+git add temp.cache
+git commit -m "feature auth commit"
+git checkout main
+git add temp.cache
+git commit -m "main commi temp cache"
+git merge feature-auth
+git remote add origin https://github.com/EmmanFulfilled/ca1ex2-repo.git
+git add temp.cache
+gitt commit -m "Resolved merge conflict"
+git commit -m "Resolved merge conflict"
+git push -u origin main
+git pull
